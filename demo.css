@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.nav-a {
+    display: inline-block;
+    padding: 25px 30px !important;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 700;
+
+}
+
+.nav-a:hover {
+    background-image: linear-gradient(rgba(85, 70, 151, 0.856), rgba(7, 77, 255, 0.9));
+    color: white;
+}
+
+.active-a {
+    background-image: linear-gradient(rgba(85, 70, 151, 0.856), rgba(7, 77, 255, 0.9));
+    color: white;
+}
+
+/* Header section ends here  */
+
+/* Banner section starts here  */
+
+.banner-page {
+    height: 100vh;
+    background-image: url("./images/banner-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.floating-menu {
+    position: absolute;
+    bottom: -200px;
+
+}
+
+.banner-page .container {
+    height: 100%;
+    position: relative;
+}
+
+.menu-content {
+    padding: 10px 10px 10px 20px;
+    color: white;
+}
+
+.menu-content h2 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.menu-content p {
+    /* font-size: 1.1rem; */
+     font-weight: 600;
+     color: rgba(255, 255, 255, 0.9);
+    width: 80%;
+    display: inline-block;
+}
+
+.arrow-a {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
+.menu-1 {
+    background-image: linear-gradient(rgb(235, 204, 30), rgba(255, 136, 20, 255));
+  
+}
+
+.menu-2 {
+    background-image: linear-gradient(rgb(196, 90, 223), rgba(23, 93, 210, 255));
+   
+
+}
+
+.menu-3 {
+    background-image: linear-gradient(rgba(255, 40, 106, 255), rgba(255,28,149,255));
+
+}
+
+.menu-4 {
+    background-image: linear-gradient(rgba(251,21,231,255), rgba(186, 30, 225, 255));
+
+}
+
+.fs-3rem{
+    font-size: 3rem;
+}
+
+.fs-1-1rem{
+    font-size: 1.1rem;
+}
+/* Banner section ends here  */
+
+/* Services section starts here  */
+.services-page{
+    margin-top: 260px;
+}
+
+.container{
+    max-width: 1180px ;
+    margin: 0 auto ;
+}
+
+.right-img-container{
+   height: 100%;
+   width: 100%;
+}
+
+.right-img-container img{
+    max-width: 100%;
+}
+
+.left-section-wrapper{
+    
+    position: relative;
+    background-color: rgb(240, 239, 239);
+}
+
+.left-content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 30px;
+}
+
+.services-btn{
+    background-image: linear-gradient(to right,rgba(255,134,3,255), rgba(255, 40, 106, 255));
+}
+
+/* Services section ends here  */
+
+/* Rating section starts here  */
+
+.rating-wrapper{
+    background-image: url("./images/swimming-bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.rating-box{
+    background-image: linear-gradient(rgba(248,50,99,0.9),rgba(222,18,131,0.9));
+    padding: 80px 40px;
+    
+}
+/* rating section ends here  */
+
+/* event section starts */
+.events-page ul li span svg{
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    filter: invert();
+    margin-right: 8px;
+   
+}
+
+.events-page ul li{
+    list-style: none;
+    color: white;
+    margin-bottom: 20px;
+}
+.events-page .left-section-wrapper{
+    background-image: linear-gradient(rgb(235, 204, 30), rgba(255, 136, 20, 255));
+
+}
+.events-page .left-section-wrapper .left-content h2{
+    padding: 0 30px;
+    padding-bottom: 20px;
+
+}
+/* event section ends  */
+
+/* review section starts */
+.review-card{
+   
+    background-color: rgb(240, 239, 239);
+    text-align: cenetr;
+}
+.review-card p{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.1rem;
+}
+
+.review-card .wrapper h2{
+    color: rgba(255, 136, 20, 255);
+    font-weight: 400;
+
+}
+.review-card .wrapper{
+   padding: 90px 40px 20px 40px;
+   height: 100%;
+   font-size: 1.1rem;
+}
+.review-card .wrapper::before{
+    content: "";
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -20%;
+    background-size: cover;
+     background-position: center;
+    
+ }
+.review-cards .review-card:nth-of-type(1) .wrapper::before {
+    background-image: url("./images/people-round-img1.jpg");
+}
+
+.review-cards .review-card:nth-of-type(2) .wrapper::before {
+    background-image: url("./images/people-round-img2.jpg");
+}
+
+.review-cards .review-card:nth-of-type(3) .wrapper::before {
+    background-image: url("./images/people-round-img3.jpg");
+}
+
+.review-cards .review-card:nth-of-type(4) .wrapper::before {
+    background-image: url("./images/people-round-img4.jpg");
+}
+
+
+/* review section ends  */
+
+/* contacts section starts here  */
+.contacts-wrapper .left-section-wrapper {
+    background-image: linear-gradient(rgba(0,152,225,255),rgba(0,126,202,255));
+}
+
+.contacts-wrapper .left-section-wrapper .left-content{
+    padding-left: 50px;
+}
+
+.contacts-wrapper .left-section-wrapper p{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);;
+}
+
+.map{
+    min-height: 400px;
+    width: 100%;
+}
+
+.white-round span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.address span{
+    display: block;
+   
+}
+/* contacts section ends here  */
+
+.footer-wrapper{
+    font-size: 1.3rem;
+    color: rgb(102, 97, 97);
+}
